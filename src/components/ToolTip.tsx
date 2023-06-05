@@ -37,7 +37,7 @@ const Tooltip = ({
       <p
         // w-auto whitespace-nowrap
         className={cn(
-          "transition-all absolute z-10 duration-150 bg-white invisible opacity-0 group-hover:visible group-hover:opacity-100",
+          "transition-all absolute px-2 z-10 duration-150 bg-white invisible opacity-0 group-hover:visible group-hover:opacity-100",
           "border border-[#EBEBF9]",
           ToolTipPositions[position || "top"],
           labelClassName
